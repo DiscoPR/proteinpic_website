@@ -72,7 +72,7 @@ export default function OpenGraphImage() {
             fontWeight: 600,
           }}
         >
-          proteinpic.app \u00b7 iPhone
+          proteinpic.app · iPhone
         </div>
       </div>
     ),
