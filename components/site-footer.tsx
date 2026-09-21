@@ -17,7 +17,7 @@ export function SiteFooter() {
           <div>
             <p className="font-semibold text-ink">Protein Pic</p>
             <p className="text-sm text-muted">
-              \u00a9 {new Date().getFullYear()} {site.copyright}
+              © {new Date().getFullYear()} {site.copyright}
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ export const site = {
   appStoreId: "6756505011",
   bundleId: "com.vibecode.proteinpic",
   seller: "Kevin Andreosky",
-  copyright: "Kevin Andreosky / Protein Pic",
+  copyright: "Protein Pic",
   tagline: "Snap a meal. Get your protein. Hit one daily target.",
   description:
     "Protein Pic is the iOS protein tracker that reads a meal photo and estimates protein in seconds. Built for people who want muscle, not another calorie spreadsheet.",

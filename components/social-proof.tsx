@@ -15,10 +15,10 @@ export function SocialProof() {
         </p>
         <blockquote className="mt-8">
           <p className="font-display text-2xl leading-snug font-medium text-ink sm:text-[1.75rem]">
-            \u201cEasy interface, useful coach suggestions, and it helped my protein\n            intake.\u201d
+            “Easy interface, useful coach suggestions, and it helped my protein intake.”
           </p>
           <footer className="mt-4 text-sm text-muted">
-            Paraphrased from an App Store review. Early ratings. Read them on\n            the listing.
+            Paraphrased from an App Store review. Early ratings. Read them on the listing.
           </footer>
         </blockquote>
       </div>
