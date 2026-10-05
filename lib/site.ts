@@ -19,5 +19,15 @@ export const site = {
     trial: "3-day trial",
     monthly: "$9.99/month",
     yearly: "$29.99/year",
+    monthlyShort: "$9.99/mo",
+    yearlyShort: "$29.99/yr",
+  },
+  compare: {
+    path: "/protein-pic-vs-myfitnesspal-vs-cal-ai",
+    title:
+      "Protein Pic vs MyFitnessPal vs Cal AI: Which Fits Protein Goals?",
+    description:
+      "Honest side-by-side: where MyFitnessPal wins, where Cal AI wins, and when a protein-first snap app like Protein Pic is the better fit. Public pricing; unknowns labeled.",
+    h1: "Protein Pic vs MyFitnessPal vs Cal AI",
   },
 } as const;

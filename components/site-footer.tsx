@@ -22,6 +22,9 @@ export function SiteFooter() {
           </div>
         </div>
         <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <Link href={site.compare.path} className="text-muted hover:text-ink">
+            Compare
+          </Link>
           <Link href="/privacy" className="text-muted hover:text-ink">
             Privacy
           </Link>

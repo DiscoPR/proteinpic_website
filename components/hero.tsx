@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { AppStoreButton } from "@/components/app-store-button";
 import { PhoneFrame } from "@/components/phone-frame";
+import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
 
 export function Hero() {
@@ -20,21 +20,23 @@ export function Hero() {
             Protein tracker for iPhone
           </div>
           <h1 className="font-display text-[2.35rem] leading-[1.08] font-semibold tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
-            Protect the muscle. Track protein, not every calorie.
+            Snap a meal. Get your protein count.
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
-            Snap a meal. Get a protein count in seconds. Hit one daily target,
-            with streaks and groups that keep you honest.
+            One daily number—no calorie spreadsheet.
           </p>
-          <div className="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
-            <AppStoreButton />
-            <p className="max-w-xs text-sm leading-relaxed text-muted">
-              Free to start. {site.pricing.trial}, then {site.pricing.monthly}{" "}
-              or {site.pricing.yearly} through Apple.
+          <div className="mt-8">
+            <Button asChild size="lg">
+              <a href={site.appStoreUrl}>Get Protein Pic — free to start</a>
+            </Button>
+            <p className="mt-3 text-sm leading-relaxed text-muted">
+              Opens the App Store · {site.pricing.trial} · then{" "}
+              {site.pricing.monthlyShort} or {site.pricing.yearlyShort}
             </p>
           </div>
           <p className="mt-6 text-sm text-muted">
-            {site.rating.label}. Use that as a starting signal, not a crowd.
+            {site.rating.average} on the App Store (early ratings—read the
+            listing).
           </p>
         </div>
         <div className="relative mx-auto w-full max-w-[320px] lg:max-w-none">
